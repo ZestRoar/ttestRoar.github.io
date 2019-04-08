@@ -14,5 +14,9 @@ https://festa.io/events/226
  - loop & task based parallel programming
  - voxelization with GPU
  - C++ Coroutine
+
  
- 
+![image](image/0408s1)
+넥슨코리아 게임 프로그래머인 옥찬호 개발자가 C++20에 추가된 기능들을 소개하고 있다.
+
+
