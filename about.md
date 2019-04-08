@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A small-strong game developer(programmer) from South Korea
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+개인적인 기술저장용 및 포트폴리오용 블로그입니다. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[topben0123@gmail.com](mailto:topben0123@gmail.com)
