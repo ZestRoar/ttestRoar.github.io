@@ -86,3 +86,6 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-hacker
+
+category_dir: category/
+tag_dir: tag/
