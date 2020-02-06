@@ -2,6 +2,7 @@
 
 layout: category
 
-title: Algorithm
+title: Logic/Algorithm
 
+permalink: '/Logic/Algorithm'
 ---
