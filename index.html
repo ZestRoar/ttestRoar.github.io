@@ -10,6 +10,7 @@ use-site-title: true
       <li><a href="/">Home</a></li>
       <li><a href="/">C++</a>
         <ul>
+            <li><a href="/C++/Server">Server</a></li>
             <li><a href="/C++/Modern">Modern</a></li>
             <li><a href="/C++/Effective">Effective</a></li>
         </ul>
@@ -37,7 +38,11 @@ use-site-title: true
           <li><a href="/Portfolio/Videos">Videos</a></li>
         </ul>
       </li>
-
+      <li><a href="/">Algorithm</a>
+        <ul>
+          <li><a href="/Algorithm/Algorithm">Algorithm</a></li>
+        </ul>
+      </li>
       <li><a href="/">ETC</a>
         <ul>
           <li><a href="/ETC/Sound">Sound</a></li>
@@ -46,23 +51,6 @@ use-site-title: true
       </li>
     </ul>
   </div>
-
-
-<header class="site-category">
-  <ul>
-    
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "category" %}
-          <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
-          href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    
-</ul>
-</header>
 
 <div class="posts">
   {% for post in site.posts %}
